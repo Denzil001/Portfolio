@@ -66,9 +66,10 @@ img {
 .navbar a {
     color: black;
     transform: translateY(23px);
+    transition: all 0.5s ease;
 }
 
-.nabar a:hover {
+.navbar a:hover {
     background-color: aquamarine;
     transform: translateY(0);
     padding: 1em;
