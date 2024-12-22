@@ -68,6 +68,12 @@ img {
     transform: translateY(23px);
 }
 
+.nabar a:hover {
+    background-color: aquamarine;
+    transform: translateY(0);
+    padding: 1em;
+}
+
 .home {
     display: flex;
     background-color: #FEFAF6;
