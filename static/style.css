@@ -72,7 +72,7 @@ img {
 .navbar a:hover {
     background-color: aquamarine;
     transform: translateY(0);
-    padding: 1em;
+    padding: 0.7em;
 }
 
 .home {
