@@ -85,12 +85,11 @@ img {
 
 .animate {
     position: absolute;
-    justify-self: center;
     align-self: center;
+    bottom: 15%;
     background-color: black;
     height: 50vh;
     width: 100vh;
-    top: 35%;
     border-radius: 7px;
     animation: color-change-3x 4s linear infinite alternate both, scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     display: flex;
@@ -280,6 +279,10 @@ img {
     .logo {
         padding-left: 0em;
         text-align: center;
+    }
+
+    .logo h1 {
+        text-shadow: 5px 5px aquamarine;
     }
 
     .navbar a {
